@@ -135,7 +135,7 @@ main {
   background: rgb(255, 251, 241);
 }
 main .hero {
-  padding: 7 6rem 6rem;
+  padding: 7rem 6rem 6rem;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg");
   background-position: center;
   background-size: cover;
@@ -410,7 +410,7 @@ footer .copy {
     display: block;
   }
   main .hero {
-    padding: 13rem 3rem 16rem;
+    padding: 7rem 3rem 6rem;
   }
   main .hero h1 {
     font-size: 4.3rem;
@@ -452,7 +452,7 @@ footer .copy {
     height: 65px;
   }
   main .hero {
-    padding: 17rem 1.5rem 5rem;
+    padding: 7rem 1.5rem 6rem;
   }
   main .hero h1 {
     font-size: 3.2rem;

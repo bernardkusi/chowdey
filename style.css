@@ -139,12 +139,13 @@ main .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg");
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
 }
 main .hero h1 {
   font-size: 5.6rem;
   line-height: 100%;
   color: rgb(34, 176, 34);
+  text-align: center;
 }
 main .hero h1 span {
   color: #fff;
@@ -155,9 +156,12 @@ main .hero h3 {
   font-size: 2.9rem;
   margin: 0 0 2rem;
   color: #fff;
+  text-align: center;
 }
 main .hero .click {
-  margin-left: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 main #about .aboutflex {
   display: flex;

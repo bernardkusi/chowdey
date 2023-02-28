@@ -135,11 +135,14 @@ main {
   background: rgb(255, 251, 241);
 }
 main .hero {
-  padding: 13rem 6rem 16rem;
+  padding: 7 6rem 6rem;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg");
   background-position: center;
   background-size: cover;
   height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 main .hero h1 {
   font-size: 5.6rem;

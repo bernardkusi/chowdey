@@ -10,8 +10,11 @@
     border-radius: .4rem;
     transition: all .4s;
     cursor: pointer;
+
     &:hover{
         box-shadow: 0 0 .4rem #1d1d1d37;
+        background: #fff;
+        color: $primary;
     }
 }
 
@@ -23,6 +26,17 @@
     background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('./images/banner.jpg');
     background-position: center;
     background-size: cover;
+
+    .bannertext{
+        color: #fff;
+        font-size: 2.1rem;
+        max-width: 55%;
+        padding: 0 2rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: 800;
+    }
 }
 
 .logo{

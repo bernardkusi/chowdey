@@ -11,6 +11,12 @@
 }
 
 @media (max-width:1080px) {
+
+    .banner{
+        .bannertext{
+            font-size: 1.6rem;
+        }
+    }
     #about {
         .aboutflex {
             flex-direction: column;
@@ -125,6 +131,14 @@
 }
 
 @media (max-width:850px) {
+
+    .banner{
+        .bannertext{
+            font-size: 1.3rem;
+            max-width: 70% ;
+        }
+    }
+
     #menu {
         .menugrid {
             grid-template-columns: repeat(2, 1fr) !important;
@@ -137,6 +151,13 @@
 }
 
 @media (max-width:550px) {
+
+    .banner{
+        .bannertext{
+            font-size: 1.1rem;
+            line-height: 130%;
+        }
+    }
 
     header{
         nav{

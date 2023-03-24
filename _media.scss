@@ -155,7 +155,9 @@
     .banner{
         .bannertext{
             font-size: 1.1rem;
+            font-weight: 500;
             line-height: 130%;
+            max-width: 80%;
         }
     }
 
@@ -181,6 +183,12 @@
             h3 {
                 font-size: 1.5rem;
                 margin: 0 0 2rem;
+            }
+        }
+
+        #about{
+            .image{
+                height: 400px;
             }
         }
 

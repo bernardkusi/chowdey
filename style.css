@@ -31,13 +31,18 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/banner.jpg");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), 80%, rgba(0, 0, 0, 0.2)), url("./images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.banner.banner2 {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), 80%, rgba(0, 0, 0, 0.2)), url("./contactimage.jpg");
   background-position: center;
   background-size: cover;
 }
 .banner .bannertext {
   color: #fff;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   max-width: 55%;
   padding: 0 2rem;
   position: absolute;
@@ -210,9 +215,13 @@ main #menu .menugrid {
 main #menu .menugrid .menu {
   transition: all 0.4s;
   border-radius: 0 0 0.6rem 0.6rem;
+  overflow: hidden;
 }
 main #menu .menugrid .menu:hover {
   box-shadow: 0 0 0.7rem rgba(29, 29, 29, 0.2156862745);
+}
+main #menu .menugrid .menu:hover .details {
+  background: #fff;
 }
 main #menu .menugrid .menu .image {
   background: lightgrey;
@@ -470,7 +479,9 @@ footer .copy {
 @media (max-width: 550px) {
   .banner .bannertext {
     font-size: 1.1rem;
+    font-weight: 500;
     line-height: 130%;
+    max-width: 80%;
   }
   header nav {
     height: 65px;
@@ -489,6 +500,9 @@ footer .copy {
   main .hero h3 {
     font-size: 1.5rem;
     margin: 0 0 2rem;
+  }
+  main #about .image {
+    height: 400px;
   }
   main #menu .menugrid {
     grid-template-columns: repeat(1, 1fr) !important;

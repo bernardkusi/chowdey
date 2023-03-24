@@ -170,9 +170,14 @@ main{
                 // background: red;
                 transition: all .4s;
                 border-radius: 0 0 .6rem .6rem;
+                overflow: hidden;
 
                 &:hover{
                     box-shadow: 0 0 .7rem #1d1d1d37;
+
+                    .details{
+                        background: #fff;
+                    }
                 }
 
                 .image{
